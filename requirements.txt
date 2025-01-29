@@ -1,0 +1,7 @@
+click
+gql
+plotly
+pyjwt
+aiohttp
+pandas
+numpy

@@ -1,0 +1,11 @@
+README.md
+setup.py
+shipyard_client.egg-info/PKG-INFO
+shipyard_client.egg-info/SOURCES.txt
+shipyard_client.egg-info/dependency_links.txt
+shipyard_client.egg-info/entry_points.txt
+shipyard_client.egg-info/requires.txt
+shipyard_client.egg-info/top_level.txt
+src/__init__.py
+src/client.py
+src/jsonify.py

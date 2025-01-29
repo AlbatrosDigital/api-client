@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: shipyard-client
+Version: 0.0.2
+Summary: A client to access the AlbatrosDigital shipyard, building digital ships
+Home-page: 
+Author: Erik Verboom
+Author-email: erik@albatros.digital
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: gql
+Requires-Dist: plotly
+Requires-Dist: jwt
+Requires-Dist: aiohttp
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
