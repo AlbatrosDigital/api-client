@@ -1,5 +1,7 @@
 click
 gql
 plotly
-jwt
+pyjwt
 aiohttp
+pandas
+numpy

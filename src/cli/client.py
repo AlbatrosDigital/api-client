@@ -11,9 +11,9 @@ from gql.transport.aiohttp import AIOHTTPTransport
 import jwt
 import click
 
-from .client_commands.custom import custom
-from .client_commands.utils import shipyard_version, config, login, set_env
-from .client_commands.ship.ship import ship
+from .commands.custom import custom
+from .commands.utils import shipyard_version, config, login, set_env
+from .commands.ship.ship import ship
 
 @click.group()
 @click.option("-q", "--quiet", is_flag=True)

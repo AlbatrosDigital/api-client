@@ -30,7 +30,7 @@ setuptools.setup(
     python_requires='>=3.8',
     entry_points={
         'console_scripts': [
-            'client = src.client:shipyard_client',
+            'client = src.cli.client:shipyard_client',
         ],
     },
 )

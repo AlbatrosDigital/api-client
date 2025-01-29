@@ -12,8 +12,10 @@ Description-Content-Type: text/markdown
 Requires-Dist: click
 Requires-Dist: gql
 Requires-Dist: plotly
-Requires-Dist: jwt
+Requires-Dist: pyjwt
 Requires-Dist: aiohttp
+Requires-Dist: pandas
+Requires-Dist: numpy
 Dynamic: author
 Dynamic: author-email
 Dynamic: classifier

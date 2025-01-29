@@ -7,7 +7,7 @@ import click
 from gql import gql, Client
 
 
-from ...jsonify import jsonify
+from lib.jsonify import jsonify
 from .ship import ship
 
 

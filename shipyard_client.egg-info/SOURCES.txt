@@ -7,5 +7,3 @@ shipyard_client.egg-info/entry_points.txt
 shipyard_client.egg-info/requires.txt
 shipyard_client.egg-info/top_level.txt
 src/__init__.py
-src/client.py
-src/jsonify.py
