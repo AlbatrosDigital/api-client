@@ -25,7 +25,8 @@ setuptools.setup(
         'pyjwt',
         'aiohttp',
         'pandas',
-        'numpy'
+        'numpy',
+        'plotly'
     ],
     python_requires='>=3.8',
     entry_points={

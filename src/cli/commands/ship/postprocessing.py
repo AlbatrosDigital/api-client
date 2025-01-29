@@ -9,7 +9,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 
-from ..queries import fueltable
+from ....lib.queries import fueltable
 from .ship import ship
 
 DraftNames = [

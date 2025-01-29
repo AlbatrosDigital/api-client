@@ -17,6 +17,11 @@ login = """mutation login($password: String!, $username: String!) {
 }
 """
 
+version = """query version {
+  version
+}
+"""
+
 fueltable = """query fuelTable($id: String!, $draft: String, $speed: Float, $tws: Float, $twa: Float, $waveDir: Float, $sigWaveHeight: Float) {
   digitalShip {
     get(id: $id) {

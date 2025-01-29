@@ -8,20 +8,15 @@ import click
 from gql import gql, Client
 from gql.transport.aiohttp import AIOHTTPTransport
 
-from .queries import login as login_query
+from lib.queries import login as login_query, version as version_query
 
 @click.command()
 @click.pass_context
 def shipyard_version(ctx):
     """Return the current api version."""
 
-    query = """query {
-      version
-    }
-    """
-
     client: Client = ctx.obj["client"]
-    result = client.execute(gql(query), variable_values={})
+    result = client.execute(gql(version_query), variable_values={})
     
     if ctx.obj["pretty"]:
         click.echo(json.dumps(result, indent=4))
