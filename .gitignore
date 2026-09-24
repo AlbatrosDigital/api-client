@@ -2,3 +2,9 @@
 **.DS_Store
 **.idea
 **.env
+**.venv
+
+# added before the Linux reinstall
+__pycache__/
+pytest-cache-files-*/
+.pytest_cache/
